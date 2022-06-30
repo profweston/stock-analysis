@@ -1,2 +1,2 @@
 # stock-analysis
-Analysis stock data
+Analysis of stock data class activity
