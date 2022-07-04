@@ -9,6 +9,7 @@ This project analyzes data for 12 stocks related to Green Energy Companies to ca
 
 ### Stock Performance
 
+
 ![Stock Performance](/Resources/Stock Performance.png)
 
 
