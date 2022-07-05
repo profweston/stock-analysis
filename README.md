@@ -33,7 +33,7 @@ The execution time to perform this analysis for each year is shown in the pictur
 
 
 <p align="center">
-<img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2018_Loop.png" width="300" height="300">
+<img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2018_loop.png" width="300" height="300">
 </p>
 
 The second analysis produced the same output but the code was refactored to replace the nested loops with an index design. First a ticker index was defined and 3 output arrays were defined for the total volume, starting price, and ending price. Then these arrays were matched to the tickers by their ticker index. This eliminates the need for the outer loop. 
