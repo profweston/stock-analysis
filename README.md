@@ -29,18 +29,8 @@ Then an inner loop was created to mine the data for each unique ticker calculati
 <img src="Resources/Inside_loop.png" width="500" height="400">
 </p>
 
-
-<p align="center">
-<img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2017_index_.png" width="300" height="300">
-</p>
-
-The inner loop mined the data for each unique ticker for the total valume and the starting and ending price to calculate the yearly return. This code is pictured below.
-
-<p align="center">
-<img src="Resources/Timer_2018_loop.png" width="300" height="300">    <img src="Resources/Timer_2018_index.png" width="300" height="300">
-</p>
-
 The execution time to perform this analysis for each year is shown in the pictures below. 
+
 
 <p align="center">
 <img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2018_Loop.png" width="300" height="300">
