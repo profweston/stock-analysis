@@ -9,12 +9,16 @@ This project analyzes data for 12 stocks related to Green Energy Companies to ca
 
 ### Stock Performance
 
+The table below compares the years of 2017 and 2018 for each stock in terms of Total Volume and Yearly Return. The negative returns are highlighted in red and the postive returns are highlighted in green. With this formatting, it is apparent that the year of 2017 was a better year for green stocks than 2018. With such a drastic change from one year to the next, during this time period green stocks represent a risky investment. Further analysis since 2018 is necessary to determine their stability. 
 
 <p align="center">
 <img src="Resources/Stock_Performance.png" width="500" height="300">
 </p>
 
 ### Execution Performance
+
+The first analysis of this data was executing utilizing a VBA script designed with nested loops. The outer loop cycled through the tickers identified for each stock. The inner loop mined the row data to determine the total volume and used the starting price and ending price to calculate the yearly return for each unique ticker.
+
 
 
 <p align="center">
