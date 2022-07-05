@@ -10,20 +10,22 @@ This project analyzes data for 12 stocks related to Green Energy Companies to ca
 ### Stock Performance
 
 
-
-![Stock Performance](/Resources/Stock_Performance.png)
-
+<p align="center">
+<img src="Resources/Stock_Performance.png" width="500" height="300">
+</p>
 
 ### Execution Performance
 
-![Timer 2017](/Resources/Timer_2017_loop.png)
-![Timer 2017](/Resources/Timer_2017_index_.png)
+
+<p align="center">
+<img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2017_index_.png" width="300" height="300">
+</p>
 
 
 
-![Timer 2017](/Resources/Timer_2018_loop.png)
-<img src="/Resources/Timer_2018_loop.png"  width=50% height=50%>
-![Timer 2017](/Resources/Timer_2018_index.png)
+<p align="center">
+<img src="Resources/Timer_2018_loop.png" width="300" height="300">    <img src="Resources/Timer_2018_index.png" width="300" height="300">
+</p>
 
 ## Summary
 
