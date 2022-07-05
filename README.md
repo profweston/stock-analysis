@@ -17,15 +17,13 @@ The table below compares the years of 2017 and 2018 for each stock in terms of T
 
 ### Execution Performance
 
-The first analysis of this data was executing utilizing a VBA script designed with nested loops. The outer loop cycled through the tickers identified for each stock. The inner loop mined the row data to determine the total volume and used the starting price and ending price to calculate the yearly return for each unique ticker.
-
-
+The first analysis of this data was executing utilizing a VBA script designed with nested loops. The outer loop cycled through the tickers identified for each stock. The code to perform this is pictured below.
 
 <p align="center">
 <img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2017_index_.png" width="300" height="300">
 </p>
 
-
+The inner loop mined the data for each unique ticker for the total valume and the starting and ending price to calculate the yearly return. This code is pictured below.
 
 <p align="center">
 <img src="Resources/Timer_2018_loop.png" width="300" height="300">    <img src="Resources/Timer_2018_index.png" width="300" height="300">
