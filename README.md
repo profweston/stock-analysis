@@ -20,6 +20,17 @@ The table below compares the years of 2017 and 2018 for each stock in terms of T
 The first analysis of this data was executing utilizing a VBA script designed with nested loops. The outer loop cycled through the tickers identified for each stock. The code to perform this is pictured below.
 
 <p align="center">
+<img src="Resources/Outside_loop.png" width="300" height="200">
+</p>
+
+Then an inner loop was created to mine the data for each unique ticker calculating the total volume and determining the ending price and the starting price to calculate the yearly return. This code is pictured below. 
+
+<p align="center">
+<img src="Resources/Inside_loop.png" width="500" height="400">
+</p>
+
+
+<p align="center">
 <img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2017_index_.png" width="300" height="300">
 </p>
 
@@ -27,6 +38,25 @@ The inner loop mined the data for each unique ticker for the total valume and th
 
 <p align="center">
 <img src="Resources/Timer_2018_loop.png" width="300" height="300">    <img src="Resources/Timer_2018_index.png" width="300" height="300">
+</p>
+
+The execution time to perform this analysis for each year is shown in the pictures below. 
+
+<p align="center">
+<img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2018_Loop.png" width="300" height="300">
+</p>
+
+The second analysis produced the same output but the code was refactored to replace the nested loops with an index design. First a ticker index was defined and 3 output arrays were defined for the total volume, starting price, and ending price. Then these arrays were matched to the tickers by their ticker index. This eliminates the need for the outer loop. 
+
+<insert pic>
+
+
+
+The execution time to perform the redesign for each year is shown in the pictures below. 
+
+
+<p align="center">
+<img src="Resources/Timer_2017_index_.png" width="300" height="300">     <img src="Resources/Timer_2018_index.png" width="300" height="300">
 </p>
 
 ## Summary
