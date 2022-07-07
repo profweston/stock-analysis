@@ -21,13 +21,16 @@ The first analysis of this data was executed utilizing a VBA script designed wit
 
 
 <p align="center">
-<img src="Resources/Nested_Code.png" width="300" height="200">
+<img src="Resources/Nested_Code.png" width="300" height="700">
 </p>
+
 The execution time to perform this analysis for each year is shown in the pictures below. 
 
+
 <p align="center">
-<img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2018_loop.png" width="300" height="300">
+<img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2018_loop.png" width="400" height="400">
 </p>
+
 The second analysis produced the same output, but the code was refactored to replace the nested loops with an index design. First a ticker index was defined, and three output arrays were created for the total volume, starting price, and ending price. Then these arrays were matched to the tickers by their ticker index. This eliminates the need for the outer loop. 
 
 
@@ -42,19 +45,6 @@ The execution time to perform this analysis for each year is shown in the pictur
 <img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2018_loop.png" width="300" height="300">
 </p>
 
-The second analysis produced the same output but the code was refactored to replace the nested loops with an index design. First a ticker index was defined and 3 output arrays were defined for the total volume, starting price, and ending price. Then these arrays were matched to the tickers by their ticker index. This eliminates the need for the outer loop. 
-
-<p align="center">
-<img src="Resources/Code_index.png" width="500" height="400">
-</p>
-
-
-The execution time to perform the redesign for each year is shown in the pictures below. 
-
-
-<p align="center">
-<img src="Resources/Timer_2017_index_.png" width="300" height="300">     <img src="Resources/Timer_2018_index.png" width="300" height="300">
-</p>
 
 ## Summary
 
