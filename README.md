@@ -51,7 +51,7 @@ The execution time to perform this analysis for each year is shown in the pictur
 
 ### Advantages of Refactoring
 
-**Refactoring** refers to the process of restructuring computer code without changing its functionality [Reference](https://en.wikipedia.org/wiki/Code_refactoring). The most obvious advantage of refactoring is by improving the structure to be more straightforward, it naturally makes it easier to work with. Consequently, bugs can be identified more readily and remedied. If the code is written in a design pattern, then it could be adapted to another project or easily extended to the current project to do deeper analyses. Moreover, if the code is written in an efficient manner, it could reduce the processing time. [Reference](https://anarsolutions.com/code-refactoring-concept-analysis/)
+**Refactoring** refers to the process of restructuring computer code without changing its functionality [(Reference)](https://en.wikipedia.org/wiki/Code_refactoring). The most obvious advantage of refactoring is by improving the structure to be more straightforward, it naturally makes it easier to work with. Consequently, bugs can be identified more readily and remedied. If the code is written in a design pattern, then it could be adapted to another project or easily extended to the current project to do deeper analyses. Moreover, if the code is written in an efficient manner, it could reduce the processing time. [(Reference)](https://anarsolutions.com/code-refactoring-concept-analysis/)
 
 Regarding the analysis of this challenge, the advantage of refactoring reduced the processing time for each year significantly. This is presented in the table below.
 <p align="center">
@@ -61,7 +61,7 @@ Regarding the analysis of this challenge, the advantage of refactoring reduced t
 
 ### Disadvantages of Refactoring
 
-While refactoring can offer advantages, it also has a downside. Refactoring can be very time-consuming and could potentially introduce bugs into a script that was previously working. [Reference](https://anarsolutions.com/code-refactoring-concept-analysis/)
+While refactoring can offer advantages, it also has a downside. Refactoring can be very time-consuming and could potentially introduce bugs into a script that was previously working. [(Reference)](https://anarsolutions.com/code-refactoring-concept-analysis/)
 
 Regarding the analysis of this challenge, the processing times were reduced significantly, however the return investment on time involved to refactor the code was minimal. Perhaps if the data set were larger or more variables were being examined, the payoff would be more satisfying to the laborious act of refactoring.
 
