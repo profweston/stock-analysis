@@ -21,7 +21,7 @@ The first analysis of this data was executed utilizing a VBA script designed wit
 
 
 <p align="center">
-<img src="Resources/Outside_loop.png" width="300" height="200">
+<img src="Resources/Nested_code.png" width="300" height="200">
 </p>
 The execution time to perform this analysis for each year is shown in the pictures below. 
 
@@ -42,8 +42,9 @@ The execution time to perform this analysis for each year is shown in the pictur
 
 The second analysis produced the same output but the code was refactored to replace the nested loops with an index design. First a ticker index was defined and 3 output arrays were defined for the total volume, starting price, and ending price. Then these arrays were matched to the tickers by their ticker index. This eliminates the need for the outer loop. 
 
-<insert pic>
-
+<p align="center">
+<img src="Resources/Code_index.png" width="500" height="400">
+</p>
 
 
 The execution time to perform the redesign for each year is shown in the pictures below. 
@@ -61,6 +62,10 @@ The execution time to perform the redesign for each year is shown in the picture
 **Refactoring** refers to the process of restructuring computer code without changing its functionality [Reference](https://en.wikipedia.org/wiki/Code_refactoring). The most obvious advantage of refactoring is by improving the structure to be more straightforward, it naturally makes it easier to work with. Consequently, bugs can be identified more readily and remedied. If the code is written in a design pattern, then it could be adapted to another project or easily extended to the current project to do deeper analyses. Moreover, if the code is written in an efficient manner, it could reduce the processing time. [Reference](https://anarsolutions.com/code-refactoring-concept-analysis/)
 
 Regarding the analysis of this challenge, the advantage of refactoring reduced the processing time for each year significantly. 
+
+<p align="center">
+<img src="Resources/Table.png" width="300" height="300">     
+</p>
 
 
 ### Disadvantages of Refactoring
