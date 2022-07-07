@@ -42,7 +42,7 @@ The execution time to perform this analysis for each year is shown in the pictur
 
 
 <p align="center">
-<img src="Resources/Timer_2017_loop.png" width="300" height="300">     <img src="Resources/Timer_2018_loop.png" width="300" height="300">
+<img src="Resources/Timer_index.png" width="400" height="400">   
 </p>
 
 
