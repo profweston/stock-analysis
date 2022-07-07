@@ -55,7 +55,7 @@ The execution time to perform this analysis for each year is shown in the pictur
 
 Regarding the analysis of this challenge, the advantage of refactoring reduced the processing time for each year significantly. This is presented in the table below.
 <p align="center">
-<img src="Resources/Table.png" width="600" height="300">     
+<img src="Resources/Table.png" width="400" height="200">     
 </p>
 
 
