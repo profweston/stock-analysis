@@ -31,7 +31,7 @@ The execution time to perform this analysis for each year is shown in the pictur
 <img src="Resources/Timer_Loop.png" width="400" height="400">     
 </p>
 
-The second analysis produced the same output, but the code was refactored to replace the nested loops with an index design. First a ticker index was defined, and three output arrays were created for the total volume, starting price, and ending price. Then these arrays were matched to the tickers by their ticker index. This eliminates the need for the outer loop. 
+The second analysis produced the same output, but the code was refactored to replace the nested loops with an index design. First a ticker index was defined, and three output arrays were created for the total volume, starting price, and ending price. Then these arrays were matched to the tickers by their ticker index. This eliminates the need for the outer loop. This code is pictured below. 
 
 
 <p align="center">
@@ -53,10 +53,9 @@ The execution time to perform this analysis for each year is shown in the pictur
 
 **Refactoring** refers to the process of restructuring computer code without changing its functionality [Reference](https://en.wikipedia.org/wiki/Code_refactoring). The most obvious advantage of refactoring is by improving the structure to be more straightforward, it naturally makes it easier to work with. Consequently, bugs can be identified more readily and remedied. If the code is written in a design pattern, then it could be adapted to another project or easily extended to the current project to do deeper analyses. Moreover, if the code is written in an efficient manner, it could reduce the processing time. [Reference](https://anarsolutions.com/code-refactoring-concept-analysis/)
 
-Regarding the analysis of this challenge, the advantage of refactoring reduced the processing time for each year significantly. 
-
+Regarding the analysis of this challenge, the advantage of refactoring reduced the processing time for each year significantly. This is presented in the table below.
 <p align="center">
-<img src="Resources/Table.png" width="300" height="300">     
+<img src="Resources/Table.png" width="600" height="300">     
 </p>
 
 
